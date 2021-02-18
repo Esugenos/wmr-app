@@ -1,0 +1,25 @@
+{
+	"scripts": {
+		"start": "wmr",
+		"build": "wmr build --prerender",
+		"serve": "wmr serve"
+	},
+	"eslintConfig": {
+		"extends": "preact"
+	},
+	"alias": {
+		"react": "preact/compat",
+		"react-dom": "preact/compat"
+	},
+	"dependencies": {
+		"preact-iso": "^0.2.0"
+	},
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^4.15.1",
+		"@typescript-eslint/parser": "^4.15.1",
+		"eslint": "^7.20.0",
+		"eslint-config-airbnb-base": "^14.2.1",
+		"eslint-plugin-react": "^7.22.0",
+		"wmr": "^1.0.0"
+	}
+}
