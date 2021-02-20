@@ -1,5 +1,7 @@
 # wmr-app
 
+Bug reproduction for [wmr#339](https://github.com/preactjs/wmr/issues/339)
+
 ## Bug
 
 Parsing error 
